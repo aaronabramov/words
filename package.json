@@ -3,9 +3,9 @@
   "scripts": {
     "test": "NODE_ENV=ci && npm run test:all",
     "test:dev": "NODE_ENV=test npm run test:all",
-    "test:all": "npm run migrate && npm run test:lint && npm run test:unit",
+    "test:all": "npm run test:lint && npm run test:unit",
     "test:unit": "./node_modules/mocha/bin/_mocha --compilers js:babel-register {.,**}/_test_/*_test.js",
-    "test:lint": "./node_modules/eslint/bin/eslint.js .",
+    "test:lint": "./node_modules/eslint/bin/eslint.js . --ext=jsx --ext=js",
     "start": "node scripts/run.js",
     "build": "./node_modules/webpack/bin/webpack.js",
     "postinstall": "npm rebuild node-sass && npm run build",
@@ -55,6 +55,7 @@
     "react-masonry-component": "^4.0.0",
     "react-redux": "^4.4.0",
     "react-router": "^2.0.0",
+
     "redux": "^3.3.1",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",

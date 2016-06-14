@@ -3,10 +3,11 @@ var base = {
     inline: true,
     port: 3000
   },
+  devtool: '#inline-source-map',
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel',
         query: {
