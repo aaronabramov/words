@@ -7,7 +7,7 @@ import React from 'react';
 const ulStyle = {
   padding: '5px',
   display: 'flex',
-  flexDirection: 'column',
+  flexDirection: 'column'
 };
 
 const liStyle = {
@@ -15,7 +15,7 @@ const liStyle = {
   border: '1px solid #fafafa',
   padding: '15px 5px',
   margin: '5px 0',
-  backgroundColor: '#ebfaff',
+  backgroundColor: '#ebfaff'
 };
 
 export default class WordList extends React.Component {
@@ -28,7 +28,7 @@ export default class WordList extends React.Component {
       return {
         id: String(i),
         value: `word ${i}`,
-        definition: `definition ${i}`,
+        definition: `definition ${i}`
       };
     });
 

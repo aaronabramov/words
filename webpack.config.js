@@ -12,7 +12,7 @@ var base = {
         loader: 'babel',
         query: {
           presets: ['es2015', 'react'],
-          plugins: ['transform-class-properties'],
+          plugins: ['transform-class-properties']
         }
       },
       {

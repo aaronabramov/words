@@ -12,5 +12,6 @@ module.exports = {
       "space-before-function-paren": [2, "never"],
       "react/jsx-uses-react": 1,
       "react/jsx-uses-vars": 1
-    }
+    },
+    "parser": "babel-eslint",
 };
