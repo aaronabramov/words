@@ -6,5 +6,4 @@ deployment:
   production:
     branch: master
     commands:
-      - git push git@heroku.com:secure-waters-46909.git $CIRCLE_SHA1:refs/heads/master
-
+      - git push git@heroku.com:words-education.git $CIRCLE_SHA1:refs/heads/master
