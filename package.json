@@ -47,6 +47,7 @@
     "imports-loader": "^0.6.5",
     "morgan": "^1.7.0",
     "multer": "^1.1.0",
+    "node-fetch": "^1.6.3",
     "node-sass": "^3.4.2",
     "node-uuid": "^1.4.7",
     "passport": "^0.3.2",
@@ -62,6 +63,7 @@
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
     "superagent": "^1.8.0-beta.2",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "xml2json": "^0.10.0"
   }
 }
